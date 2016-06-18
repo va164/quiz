@@ -1,5 +1,4 @@
-*{
-	background: black;
+*, *:before, *:after{
 	color: pink;
 	box-sizing: border-box;
 }
@@ -15,13 +14,22 @@ div {
 	background-image: url("images/mustaine.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	-webkit-filter: blur(100px);
+	-webkit-filter: blur(60px);
 	z-index: -1;
 }
+.outer{
+
+	position: absolute;
+	height: 100%;
+	border-color: yellow;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: center;
+}
 .quiz{
-	box-sizing: border-box;
-	margin:180px;
-	position: fixed;
-	top: 10%;
-	float: center;
+	background-color: yellow;
+	max-width: 75%
 }
