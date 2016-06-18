@@ -1,0 +1,27 @@
+*{
+	background: black;
+	color: pink;
+	box-sizing: border-box;
+}
+div {
+	border: 1px solid red;
+}
+.main{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-image: url("images/mustaine.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-filter: blur(100px);
+	z-index: -1;
+}
+.quiz{
+	box-sizing: border-box;
+	margin:180px;
+	position: fixed;
+	top: 10%;
+	float: center;
+}
