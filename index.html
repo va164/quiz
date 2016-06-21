@@ -4,17 +4,27 @@
 	<meta charset="UTF-8">
 	<title>Can you guess the Guitar Gods?</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="app.js"></script>
 </head>
 <body>
 	<div class="main">
 	</div>
+<div class="feedback">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis eius hic, repellat delectus sunt et iusto fuga minus ex blanditiis consectetur praesentium nisi doloremque incidunt, aperiam minima neque quibusdam quis.</div>
 		<div class="outer">
-			<div class="quiz">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi provident delectus culpa eius a consequatur, possimus natus, sunt voluptates magnam, hic asperiores quis! Aperiam adipisci neque dolore quisquam laboriosam?
-				<div class="q1">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab unde pariatur quibusdam officiis, sint quia iure. Quo placeat eius quod 
-					<div class="options">
-					Lorem ipsum dolor sit amet,
+
+
+			<div class="question"><span id="questionText">
+			Who was the lead guitarist of Metallica who later founded Megadeth ?</span>
+
+				<div class="options">
+
+				<input type="radio" name="option" class="option" value="0"><span class="answer">Slash</span><br>
+				<input type="radio" name="option" class="option" value="1"><span class="answer">John Petrucci</span><br>
+				<input type="radio" name="option" class="option" value="2"><span class="answer">Steve Vai</span><br>
+				<input type="radio" name="option" class="option" value="3"><span class="answer">Dave Mustaine</span><br>
+					<div class="confirm">
+					<input type="button" id="submit" value="Submit Answer">
 					</div>
 				</div>
 			</div>

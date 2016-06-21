@@ -5,22 +5,29 @@
 div {
 	border: 1px solid red;
 }
+
+.question{
+	background-image: url("images/blurry.jpg");
+
+}
 .main{
 	position: fixed;
 	height: 100%;
 	width: 100%;
 	top: 0;
 	left: 0;
-	background-image: url("images/mustaine.jpg");
+	background: black;
+	/*background-image: url("images/mustaine.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	-webkit-filter: blur(60px);
+	-webkit-filter: blur(60px);*/
 	z-index: -1;
 }
 .outer{
 
 	position: absolute;
 	height: 100%;
+	width: 100%;
 	border-color: yellow;
 
 	display: flex;
@@ -28,8 +35,23 @@ div {
 	align-items: center;
 
 	justify-content: center;
+	
 }
-.quiz{
+
+.question{
 	background-color: yellow;
-	max-width: 75%
+	max-width: 75%;
+	min-width: 75%;
+
+}
+
+.feedback {
+	position: absolute;
+	
+	margin: 0 auto:;
+	top: 50%;
+	
+	background: pink;
+	height: 30%;
+	z-index: 9999;
 }
