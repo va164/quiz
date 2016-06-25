@@ -1,0 +1,303 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Mada', sans-serif;
+}
+
+body{
+	background: black;
+}
+.question{
+	position: fixed;
+	top:0;
+	left:0;
+    height:20%;
+    width: 100%;
+
+    /*background: url('images/blurry.jpg');*/
+    background: black;
+    background-size: cover;
+    color: darkorange;
+    font-size: 1.65rem;
+    letter-spacing: .1rem;
+    text-align: center;
+    padding: 1%;
+
+    
+}
+.main{
+	position: fixed;
+	top: 20%;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: black;
+
+	display: -webkit-flex;
+  	display: flex;
+  	-webkit-justify-content: center;
+  	      justify-content: center;
+}
+
+.feedbackr{
+	background: darkorange;
+	min-height: 50px;
+	margin-top: 25%;
+	border-radius: 35px;
+	text-align: center;
+	padding: 2%;
+	font-size: 1.5rem;
+    letter-spacing: .1rem;
+
+}
+.feedbackw{
+	background: darkorange;
+	min-height: 50px;
+	margin-top: 25%;
+	border-radius: 35px;
+	text-align: center;
+	padding: 2%;
+	font-size: 1.5rem;
+    letter-spacing: .1rem;
+
+}
+p {
+    font-size: .25rem
+}
+
+.instruct {
+    font-size: .25rem;
+}
+
+.intro {
+    background: darkorange;
+    border-radius: 35px;
+    text-align: center;
+    padding: 2%;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    margin-top: 25%;
+    margin-bottom: 25%;
+
+}
+.start{
+    background: black;
+    min-height: 50px;
+    border-radius: 35px;
+    text-align: center;
+    padding: 2%;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    color: darkorange;
+}
+
+#choicea1, 
+#choiceb1,
+#choicec1,
+#choiced1,
+#choicee1,
+#choicea2, 
+#choiceb2,
+#choicec2,
+#choiced2,
+#choicee2,
+#choicea3, 
+#choiceb3,
+#choicec3,
+#choiced3,
+#choicee3,
+#choicea4, 
+#choiceb4,
+#choicec4,
+#choiced4,
+#choicee4,
+#choicea5, 
+#choiceb5,
+#choicec5,
+#choiced5,
+#choicee5 {
+	cursor: pointer;
+	color: transparent;
+	border-radius: 35px;
+}
+.feedbackr,
+.feedbackw,
+.start,
+.intro {
+	cursor: pointer;
+}
+
+#choicea1{
+    height:80%;
+    width: 20%;
+    background-image: url('images/dimebag.jpg');
+    background-size: cover;
+    background-position: 45%;
+}
+#choiceb1{
+    height:80%;
+    width: 20%;
+    background-image: url('images/hetfield.jpg');
+    background-size: cover;
+    background-position: 58% ;
+}
+#choicec1{
+    height:80%;
+    width: 20%;
+    background-image: url('images/mustaine.jpg');
+    background-size: cover;
+    background-position: 65% ;
+}
+#choiced1{
+    height:80%;
+    width: 20%;
+    background-image: url('images/petrucci.jpg');
+    background-size: cover;
+    background-position: 45% ;
+}
+#choicee1{
+    height:80%;
+    width: 20%;
+    background-image: url('images/slash.jpg');
+    background-size: cover;
+    background-position: 60% ;
+}
+#choicea2{
+    height:80%;
+    width: 20%;
+    background-image: url('images/srv.jpg');
+    background-size: cover;
+    background-position: 55%;
+}
+#choiceb2{
+    height:80%;
+    width: 20%;
+    background-image: url('images/johnson.jpg');
+    background-size: cover;
+    background-position: 50% ;
+}
+#choicec2{
+    height:80%;
+    width: 20%;
+    background-image: url('images/knopfler.jpg');
+    background-size: cover;
+    background-position: 55% center;
+}
+#choiced2{
+    height:80%;
+    width: 20%;
+    background-image: url('images/hendrix.jpg');
+    background-size: cover;
+    background-position: 50% ;
+}
+#choicee2{
+    height:80%;
+    width: 20%;
+    background-image: url('images/clapton.jpg');
+    background-size: cover;
+    background-position: 60% ;
+}
+#choicea3{
+    height:80%;
+    width: 20%;
+    background-image: url('images/dd.jpg');
+    background-size: cover;
+    background-position: 56%;
+}
+#choiceb3{
+    height:80%;
+    width: 20%;
+    background-image: url('images/jp.jpg');
+    background-size: cover;
+    background-position: 45%;
+}
+#choicec3{
+    height:80%;
+    width: 20%;
+    background-image: url('images/perry.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#choiced3{
+    height:80%;
+    width: 20%;
+    background-image: url('images/kr.jpg');
+    background-size: cover;
+    background-position: center ;
+}
+#choicee3{
+    height:80%;
+    width: 20%;
+    background-image: url('images/ay.jpg');
+    background-size: cover;
+    background-position: 40% ;
+}
+#choicea4{
+    height:80%;
+    width: 20%;
+    background-image: url('images/js.jpg');
+    background-size: cover;
+    background-position: 45% ;
+}
+#choiceb4{
+    height:80%;
+    width: 20%;
+    background-image: url('images/ym.jpg');
+    background-size: cover;
+    background-position: 40%;
+}
+#choicec4{
+    height:80%;
+    width: 20%;
+    background-image: url('images/vai.jpg');
+    background-size: cover;
+    background-position: 30%;
+}
+#choiced4{
+    height:80%;
+    width: 20%;
+    background-image: url('images/jb.jpg');
+    background-size: cover;
+    background-position:  center;
+}
+#choicee4{
+    height:80%;
+    width: 20%;
+    background-image: url('images/pg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#choicea5{
+    height:80%;
+    width: 20%;
+    background-image: url('images/kh.jpg');
+    background-size: cover;
+    background-position: 37%;
+}
+#choiceb5{
+    height:80%;
+    width: 20%;
+    background-image: url('images/evh.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#choicec5{
+    height:80%;
+    width: 20%;
+    background-image: url('images/dg.jpg');
+    background-size: cover;
+    background-position: 41%;
+}
+#choiced5{
+    height:80%;
+    width: 20%;
+    background-image: url('images/zappa.jpg');
+    background-size: cover;
+    background-position: 40%;
+}
+#choicee5{
+    height:80%;
+    width: 20%;
+    background-image: url('images/marty.jpg');
+    background-size: cover;
+    background-position: 40%;
+}
