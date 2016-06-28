@@ -80,7 +80,7 @@ function startquiz() {
 
 // function to receive input and check the answer
 abc();
-function abc() { $("#choicea1, #choiceb1, #choicec1, #choiced1, #choicee1, #choicea2, #choiceb2, #choicec2, #choiced2, #choicee2, #choicea3, #choiceb3, #choicec3, #choiced3, #choicee3, #choicea4, #choiceb4, #choicec4, #choiced4, #choicee4, #choicea5, #choiceb5, #choicec5, #choiced5, #choicee5").click(function() {
+function abc() { $("#choicea1, #choiceb1, #choicec1, #choiced1, #choicee1, #choicea2, #choiceb2, #choicec2, #choiced2, #choicee2, #choicea3, #choiceb3, #choicec3, #choiced3, #choicee3, #choicea4, #choiceb4, #choicec4, #choiced4, #choicee4, #choicea5, #choiceb5, #choicec5, #choiced5, #choicee5").click(function(event) {
 
 	event.preventDefault();
 	//function to receive input
